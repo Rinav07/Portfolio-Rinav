@@ -177,10 +177,12 @@ textarea {
       height: unset;
       min-height: unset; } }
   .home-hero_img-content {
+    /* width: 20rem; */
     height: 23rem;
     align: center;
     text-align: center;
-    
+    /* margin: 3rem auto 0 auto; */
+
   }
   .home-hero_img{
     padding-top: 0;
@@ -213,15 +215,14 @@ textarea {
   background: #fafafa;}
   .about__content {
     display: grid;
-    align-items: flex-start;
-    align-self: flex-start;
-    margin-left: 0px;
+    /* align-items: baseline; */
+    margin-right: 10px;
     padding-left: 0px;
-    grid-template-columns: 32vw 28vw 28vw;
-    grid-gap: 3rem; }
-    @media only screen and (max-width: 56.25em) {
+    grid-template-columns: 30vw 28vw 28vw;
+    grid-gap: 2.5rem; }
+    @media only screen and (max-width: 50.25em) {
       .about__content {
-        grid-template-columns: 40vw;
+        grid-template-columns: 20vw;
         grid-gap: 1rem; } }
     .about__content-title {
       font-weight: 700;
@@ -262,19 +263,22 @@ textarea {
 
 .projects-container {
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
     align-items: center;
+    /* width: 70%; */
 }
 
 .project-item {
     line-height: 2rem;
-    height: 53rem;
+    height: 57rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 98, 185, 0.8);
+    /* flex: 1; */
     width: 25vw;
     margin: 1.5em;
     padding: 2em 0em;
@@ -286,7 +290,7 @@ textarea {
 
     text-align: center;
     vertical-align: middle;
-    padding-top: 12px;
+    padding-top: 18px;
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 2.4rem;
@@ -316,7 +320,7 @@ textarea {
     font-size: 2rem;
     margin: 25px 40px;
     padding: 4px 0px;
-    height: 10rem;
+    /* height: 10rem; */
 }
 
 .p_skills {
@@ -478,7 +482,8 @@ textarea {
       text-decoration: underline;
       transform: scale(1.3);
       color: #000;
-  }
+      /* transition: 0.2s; */
+    }
   .header__main-ham-menu-cont {
     display: none;
     width: 3rem;
